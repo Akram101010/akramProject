@@ -37,7 +37,14 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-
+@importi .fa, i.fas, i.far, i.fab {
+    font-size: inherit;
+    color: inherit;
+}
+body i.fa, body i.fas, body i.far, body i.fab {
+    font-size: inherit !important;
+    color: inherit !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth; } }
