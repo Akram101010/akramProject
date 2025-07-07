@@ -56,10 +56,7 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
 
-i.fa, i.fas, i.far, i.fab {
-    font-size: inherit;
-    color: inherit;
-}
+
 
 hr {
   margin: 1rem 0;
@@ -110,7 +107,10 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
-
+i.fa, i.fas, i.far, i.fab {
+    font-size: inherit;
+    color: inherit;
+}
 abbr[title],
 abbr[data-bs-original-title] {
   text-decoration: underline;
