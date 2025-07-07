@@ -107,10 +107,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
-i.fa, i.fas, i.far, i.fab {
-    font-size: inherit;
-    color: inherit;
-}
+
 abbr[title],
 abbr[data-bs-original-title] {
   text-decoration: underline;
@@ -11331,7 +11328,10 @@ padding-left: 5px;
       .contact .php-email-form button[type=submit]:hover {
         background: color-mix(in srgb, var(--accent-color), transparent 20%);
       }
-      
+      i.fa, i.fas, i.far, i.fab {
+    font-size: inherit;
+    color: inherit;
+}
       /*--------------------------------------------------------------
       # Starter Section Section
       --------------------------------------------------------------*/
